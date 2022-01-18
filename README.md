@@ -54,3 +54,10 @@ we make the two smart contracts :-
 ### Test smart contract
 - Making test file on `test` directory
 - RUN `truffle test`
+
+
+## Smart contract check on truffle console
+- `LushivToken.deployed().then(function(instance){tokenInstance=instance;})`
+- For name : `tokenInstance.name()`
+- Symbol : ` tokenInstance.symbol()`
+- 
